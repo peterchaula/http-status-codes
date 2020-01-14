@@ -5,6 +5,12 @@
  */
 export declare const ACCEPTED = 202;
 /**
+ * Official Documentation @ https://tools.ietf.org/html/rfc5842#section-7.1
+ *
+ * The 208 (Already Reported) status code can be used inside a DAV: propstat response element to avoid enumerating the internal members of multiple bindings to the same collection repeatedly
+ */
+export declare const ALREADY_REPORTED = 208;
+/**
  * Official Documentation @ https://tools.ietf.org/html/rfc7231#section-6.6.3
  *
  * This error response means that the server, while working as a gateway to get a response needed to handle the request, got an invalid response.
